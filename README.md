@@ -120,7 +120,7 @@ Built with ❤️ using:
 - [Express.js](https://expressjs.com/)
 - Modern CSS (Grid, Flexbox, Animations)
 - Vanilla JS ES6+ Classes
-- Created by BLACKBOXAI
+- Created by Jayaditya Malviya
 
 **License:** MIT - Free to use/modify!
 
