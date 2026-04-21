@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterviewMind AI - Agentic Interview Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 InterviewMind AI</h1>
+            <p>Agentic Interview Simulator with AI Feedback</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Chat Section -->
+            <section class="chat-section">
+                <div id="chat-container" class="chat-container"></div>
+                <div class="chat-input-container">
+                    <input type="text" id="user-input" placeholder="Type your answer here... (Press Enter or click Send)" maxlength="500">
+                    <button id="send-btn">Send Answer</button>
+                    <select id="agent-type">
+                        <option value="technical">Technical Interviewer</option>
+                        <option value="hr">HR Interviewer</option>
+                    </select>
+                </div>
+            </section>
+
+            <!-- Dashboard Section -->
+            <section class="dashboard">
+                <h2>Performance Dashboard</h2>
+                <div class="metrics">
+                    <div class="metric">
+                        <label>Average Score</label>
+                        <div id="avg-score" class="score">0</div>
+                    </div>
+                    <div class="metric">
+                        <label>Total Questions</label>
+                        <span id="total-questions">0</span>
+                    </div>
+                    <div class="metric">
+                        <label>Best Score</label>
+                        <div id="best-score" class="score">0</div>
+                    </div>
+                </div>
+                <div class="performance-meter">
+                    <label>Performance Meter</label>
+                    <div class="meter">
+                        <div id="meter-fill" class="meter-fill"></div>
+                    </div>
+                    <span id="meter-label">Poor</span>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
